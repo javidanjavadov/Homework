@@ -12,7 +12,7 @@ const employeeDetails = {
 delete employeeDetails.contact.email;
 employeeDetails.department = "Engineering";
 
-const { fullName: employeeName, position, contact, rest } = employeeDetails;
+const { fullName: employeeName, position, contact, ...rest } = employeeDetails;
 console.log(employeeName)
 console.log(position);
 console.log(contact);
