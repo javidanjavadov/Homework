@@ -1,16 +1,14 @@
 
 function calculateSum(numbers) {
-  numbers = [
-    5 , 10 , 15 , 20
-  ]
+
     let sum = 0;
     for (let i = 0; i < numbers.length; i++) {
       sum += numbers[i];
     }
     console.log(sum);
   }
-
-  calculateSum()
+  const numbers = [1, 2, 3, 4, 5];
+  calculateSum(numbers)
 
   let counter = 0
   while (counter <= 5) {
